@@ -5,12 +5,12 @@ GOOGLE MAP for API 8
 * * *
 Añadir los siguientes permisos al AndroidManifest.xml para poder utilizar las funciones de Google Map:
 
- * <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
- * <uses-permission android:name="android.permission.INTERNET" />
- * <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
- * <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
- * <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
- * <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
 Añadimos la opcion que pueda usar el motor gráfico en AndroidManifest.xml
 
