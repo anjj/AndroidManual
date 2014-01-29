@@ -2,7 +2,12 @@ AndroidManual
 =============
 
 Android Manual 4 Dummies
+
 * * *
+
+GOOGLE MAP for API 8
+====================
+![alt tag](http://www.hosteriamirasierra.com/images/GOOGLE-MAPAS.jpg)
 **Obtenemos el objeto mapa para poder trabajar con el**
 
 map = ((SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map)).getMap();
