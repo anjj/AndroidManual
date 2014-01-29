@@ -13,21 +13,20 @@ Añadir los siguientes permisos al AndroidManifest.xml para poder utilizar las f
 	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
 Añadimos la opcion que pueda usar el motor gráfico en AndroidManifest.xml
-
-<uses-feature
-        android:glEsVersion="0x00020000"
-        android:required="true" />
+	<uses-feature
+        	android:glEsVersion="0x00020000"
+        	android:required="true" />
         
 Finalmente añadimos los Meta
 
 !-- API KEY -->
-               <meta-data
-            android:name="com.google.android.maps.v2.API_KEY"
-            android:value="AIzaSyAFqqUyLB30YYLkaAo9vpDyI_H74QCe88Q" />
+	<meta-data
+        	android:name="com.google.android.maps.v2.API_KEY"
+		android:value="AIzaSyAFqqUyLB30YYLkaAo9vpDyI_H74QCe88Q" />
         
-               <meta-data
-                    android:name="com.google.android.gms.version"
-                    android:value="@integer/google_play_services_version" />
+        <meta-data
+                android:name="com.google.android.gms.version"
+                android:value="@integer/google_play_services_version" />
         
 
 
