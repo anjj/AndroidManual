@@ -13,6 +13,7 @@ Añadir los siguientes permisos al AndroidManifest.xml para poder utilizar las f
 	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
 Añadimos la opcion que pueda usar el motor gráfico en AndroidManifest.xml
+
 	<uses-feature
 		ndroid:glEsVersion="0x00020000"
 		android:required="true" />
