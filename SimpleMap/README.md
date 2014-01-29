@@ -15,7 +15,7 @@ Añadir los siguientes permisos al AndroidManifest.xml para poder utilizar las f
 Añadimos la opcion que pueda usar el motor gráfico en AndroidManifest.xml
 
 	<uses-feature
-		ndroid:glEsVersion="0x00020000"
+		android:glEsVersion="0x00020000"
 		android:required="true" />
         
 Finalmente añadimos los meta-data para usar la API Key
