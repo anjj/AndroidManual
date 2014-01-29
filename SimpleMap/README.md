@@ -23,9 +23,10 @@ Finalmente añadimos los meta-data para usar la API Key
 	<meta-data
 	        android:name="com.google.android.maps.v2.API_KEY"
 		android:value="AIzaSyAFqqUyLB30YYLkaAo9vpDyI_H74QCe88Q" />
-        <meta-data
-                android:name="com.google.android.gms.version"
-                android:value="@integer/google_play_services_version" />
+		
+	<meta-data
+		android:name="com.google.android.gms.version"
+		android:value="@integer/google_play_services_version" />
         
 
 
