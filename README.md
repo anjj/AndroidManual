@@ -3,7 +3,7 @@ AndroidManual
 
 Android Manual 4 Dummies
 * * *
-**Obtenemos el objeto mapa para poder trabajar con el**
+**Obtenemos el objeto mapa para poder trabajar con el**\n
 map = ((SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map)).getMap();
 		
 **Cambiar el modo de vista del mapa**
