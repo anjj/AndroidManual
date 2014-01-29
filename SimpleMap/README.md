@@ -14,12 +14,12 @@ Añadir los siguientes permisos al AndroidManifest.xml para poder utilizar las f
 
 Añadimos la opcion que pueda usar el motor gráfico en AndroidManifest.xml
 	<uses-feature
-        	android:glEsVersion="0x00020000"
-        	android:required="true" />
+		ndroid:glEsVersion="0x00020000"
+		android:required="true" />
         
 Finalmente añadimos los meta-data para usar la API Key
-<meta-data
-        	android:name="com.google.android.maps.v2.API_KEY"
+	<meta-data
+	        android:name="com.google.android.maps.v2.API_KEY"
 		android:value="AIzaSyAFqqUyLB30YYLkaAo9vpDyI_H74QCe88Q" />
         
         <meta-data
