@@ -17,9 +17,7 @@ Añadimos la opcion que pueda usar el motor gráfico en AndroidManifest.xml
         	android:glEsVersion="0x00020000"
         	android:required="true" />
         
-Finalmente añadimos los Meta
-
-!-- API KEY -->
+Finalmente añadimos los meta-data para usar la API Key
 	<meta-data
         	android:name="com.google.android.maps.v2.API_KEY"
 		android:value="AIzaSyAFqqUyLB30YYLkaAo9vpDyI_H74QCe88Q" />
@@ -32,20 +30,20 @@ Finalmente añadimos los Meta
 
 **Obtenemos el objeto mapa para poder trabajar con el**
 
-map = ((SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map)).getMap();
+	map = ((SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map)).getMap();
 		
 **Cambiar el modo de vista del mapa**
 
-map.setMapType(GoogleMap.MAP_TYPE_TERRAIN);
+	map.setMapType(GoogleMap.MAP_TYPE_TERRAIN);
 		
 **Añadir un marker al mapa**
 
-map.addMarker(
-	new MarkerOptions()
-    .title("Hola soy un Marker")
-    .position(new LatLng(41.65407, -0.83251))
-    .snippet("Hola, soy el Snppet"));
+	map.addMarker(
+		new MarkerOptions()
+	    .title("Hola soy un Marker")
+	    .position(new LatLng(41.65407, -0.83251))
+	    .snippet("Hola, soy el Snppet"));
 		
 **Mover el mapa y Zoomear, donde 14 es el nivel de ZOOM**
 
-map.moveCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(41.65407, -0.83251), 14));
+	map.moveCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(41.65407, -0.83251), 14));
